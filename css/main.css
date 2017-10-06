@@ -22,8 +22,12 @@ header {
   text-decoration: none;
 }
 
+nav {
+  width: 100%;
+}
+
 .nav-group {
-  text-align: right;
+  background-color: #ffc107;
 }
 
 .nav-group li {
@@ -55,13 +59,16 @@ footer {
   background-color: #ffc107;
 }
 
-.footer-text, .icon-group {
+.footer-text {
   text-align: center;
   margin: 0;
 }
 
+.icon-group {
+  display: inline-block;
+}
+
 .footer-icon {
-  text-decoration-color: none;
   color: #000;
 }
 
