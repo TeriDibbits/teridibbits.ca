@@ -1,0 +1,59 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  font-family: "Jura", sans-serif;
+}
+
+header {
+  background-color: #ffc107;
+  min-height: 25em;
+}
+
+.nav {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-group {
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.work {
+  margin: 0;
+}
+
+.work-img {
+  width: 100%;
+}
+
+footer {
+  background-color: #ffc107;
+}
+
+.footer-text, .icon-group {
+  text-align: center;
+  margin: 0;
+}
+
+.footer-icon {
+  text-decoration-color: none;
+  color: #000;
+}
+
+.copyright {
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
