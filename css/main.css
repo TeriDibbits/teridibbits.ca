@@ -9,9 +9,12 @@ html {
   font-family: "Jura", sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   background-color: #ffc107;
-  min-height: 25em;
 }
 
 .nav {
@@ -23,17 +26,29 @@ header {
   text-align: right;
 }
 
-li {
+.nav-group li {
   display: inline-block;
   list-style-type: none;
 }
 
+.wordmark {
+  width: 100%;
+  margin-bottom: 5em;
+  margin-top: 3em;
+}
+
 .work {
   margin: 0;
+  padding: 0;
 }
 
 .work-img {
+  display: block;
   width: 100%;
+}
+
+.work a {
+  display: block;
 }
 
 footer {
