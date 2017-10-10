@@ -17,6 +17,10 @@ body {
   background-color: #000;
 }
 
+.section-header {
+  background-color: #000;
+}
+
 a {
   text-decoration: none;
   color: #ffc107;
@@ -67,13 +71,16 @@ a {
   color: #ffc107;
 }
 
-.img-circle {
-  border-radius: 50%;
-  width: 15em;
+.btn-work {
+  margin-bottom: 3em;
 }
 
 h1 {
   color: #ffc107;
+}
+
+.img-circle {
+  border-radius: 50%;
 }
 
 footer {
