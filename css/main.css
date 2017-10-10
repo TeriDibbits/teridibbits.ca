@@ -13,12 +13,55 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: #000;
+  text-align: center;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 40px;
+}
+
+.nav-check:checked ~ .nav-label {
+  color: #ffc107;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
 .nav li {
   display: inline-block;
 }
 
-nav {
-  background-color: #000;
+.nav-close {
+  display: none;
+}
+
+.nav-checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-checked ~ .nav-label .nav-close {
+  display: block;
 }
 
 a {
@@ -42,20 +85,25 @@ a {
 
 .banner-body {
   position: absolute;
-  float: right;
+  float: none;
+  text-align: center;
   margin: 0;
   bottom: 0;
-  padding: .3rem 1rem;
   max-width: 40rem;
   left: 50%;
+  top: 505;
   width: 100%;
-  transform: translateX(-50%);
-  top: 1rem;
+  transform: translate(-50%, -50%);
 }
 
 .btn-ghost {
   border: solid 3px black;
   padding: 1em;
+}
+
+.btn-ghost:hover {
+  background-color: #000;
+  color: #ffc107;
 }
 
 *, *::before, *::after {
