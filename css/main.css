@@ -27,6 +27,10 @@ header {
   top: -3em;
 }
 
+[type="checkbox"] + label::before {
+  top: -3em;
+}
+
 .nav-check:checked ~ .nav {
   display: block;
 }
