@@ -12,36 +12,41 @@
 </head>
 <body>
 
-  <header class="grid grid-middle">
-    <div class="island-1-2 unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
-      <i>
-        <img class="wordmark" src="images/wordmark.svg" alt="">
-      </i>
-    </div>
-    <nav class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
-      <input type="checkbox" class="nav-check" id="nav-check">
-      <label class="nav-label" for="nav-check">
-        <img class="nav-open" src="images/toggle.svg" alt="open navigation">
-        <img class="nav-close" src="images/close.svg" alt="close navigation">
-      </label>
-      <ul class="list-group nav grid grid-middle">
-        <li class="island-1-2 unit xs-1 s-1 m-1 l-1 xl-1"><a href="../index.html">home</a></li>
-        <li class="island-1-2 unit xs-1 s-1 m-1 l-1 xl-1"><a href="../about.html">about</a></li>
-        <li class="island-1-2 unit xs-1 s-1 m-1 l-1 xl-1"><a href="../work.html">work</a></li>
-      </ul>
-    </nav>
-    <article class="banner unit xs-1 s-1 m-1 l-1 xl-1">
-    <div>
-      <img class="img-flex" src="images/banner.jpg" alt="">
-    </div>
-    <div class="banner-body">
-      <img class="img-circle" src="images/placeholder-circle.svg" alt="">
-      <div class="body-copy">
-        <h2 class="banner-title pad-b">i'm not your typical worm catcher</h2>
-        <a class="btn-ghost">learn more about me</a>
+  <header>
+    <div class="masthead">
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Work</li></a>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="gutter wordmark-position pad-b">
+        <i>
+          <img class="wordmark" src="images/wordmark.svg" alt="">
+        </i>
       </div>
     </div>
-  </article>
+
+    <article class="banner">
+      <div>
+        <img class="img-flex" src="images/banner.jpg" alt="">
+      </div>
+      <div class="banner-body">
+        <img class="img-circle" src="images/placeholder-circle.svg" alt="">
+        <div class="banner-copy">
+          <h2 class="banner-title pad-b gutter-2">proactive worm catcher: i'm not your typical early bird</h2>
+          <a class="btn-ghost">learn more about me</a>
+        </div>
+      </div>
+    </article>
   </header>
 
   <main class="grid grid-middle island">
@@ -50,19 +55,20 @@
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
       <h1 class="yotta">about me</h1>
-      <p>I am student designer and proactive worm catcher. Not your typical early bird; I have surpassing organization skills paired with an original creative flare for concept driven design. A smiley solution to your problem. In high school it quickly became clear to me that I have a passion and love for art. There is an excitement that stirs within me whenever I am presented with a creative opportunity. </p>
+      <p>I am student designer and proactive worm catcher. Not your typical early bird; I have surpassing organization skills paired with an original creative flare for concept driven design. In high school it quickly became clear to me that I have a passion and love for art. There is an excitement that stirs within me whenever I am presented with a creative opportunity. </p>
+      <p class="push-0">A smiley solution to your problem.</p>
       <p>hello@teridibbits.com</p>
     </div>
   </main>
 
   <footer>
-    <p class="footer-text pad-t-1-2"> Like what you see? Feel free to reach out.</p>
-    <ul class="icon-group">
-      <li class="island-1-2"><a class="footer-icon" href="#">Behance</a></li>
-      <li class="island-1-2"><a class="footer-icon" href="#">Linkedin</a></li>
-      <li class="island-1-2"><a class="footer-icon" href="#">Email</a></li>
+    <p class="footer-text pad-t-1-2 push-0"> Like what you see? Feel free to reach out.</p>
+    <ul class="icon-group grid grid-middle">
+      <li class="island-1-2 unit xs-1-3 s-1-3 m-1-3 l-1-3"><a class="footer-icon" href="#">Behance</a></li>
+      <li class="island-1-2 unit xs-1-3 s-1-3 m-1-3 l-1-3"><a class="footer-icon" href="#">Linkedin</a></li>
+      <li class="island-1-2 unit xs-1-3 s-1-3 m-1-3 l-1-3"><a class="footer-icon" href="#">Email</a></li>
     </ul>
-    <p class="island-1-2 micro copyright">© Teri Dibbits</p>
+    <p class="island-1-2 micro copyright push-0">© Teri Dibbits</p>
   </footer>
 
 </body>
