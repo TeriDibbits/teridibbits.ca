@@ -75,7 +75,7 @@ a {
 }
 
 .wordmark {
-  width: 10em;
+  width: 15em;
 }
 
 .img-flex {
@@ -96,7 +96,7 @@ a {
   bottom: 0;
   max-width: 40rem;
   left: 50%;
-  top: 505;
+  top: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
 }
@@ -114,6 +114,27 @@ a {
 .img-circle {
   border-radius: 50%;
   width: 15em;
+}
+
+h1 {
+  color: #ffc107;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+}
+
+.footer-text, .copyright {
+  color: #ffc107;
+}
+
+.icon-group {
+  display: inline-block;
+}
+
+.copyright {
+  text-align: left;
 }
 
 *, *::before, *::after {
