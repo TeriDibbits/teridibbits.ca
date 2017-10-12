@@ -57,7 +57,7 @@ a {
   bottom: 0;
   max-width: 40rem;
   left: 50%;
-  top: 40%;
+  top: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
 }
@@ -246,6 +246,10 @@ a:hover
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .banner-body {
+    max-width: 60rem;
   }
 
 }
