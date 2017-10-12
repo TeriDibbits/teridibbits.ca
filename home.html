@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <header>
+  <header id="home">
     <div class="masthead">
       <nav role="navigation">
         <div id="menuToggle">
@@ -21,9 +21,9 @@
           <span></span>
           <span></span>
           <ul id="menu">
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Work</li></a>
+            <a href="#home"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#work"><li>Work</li></a>
           </ul>
         </div>
       </nav>
@@ -41,7 +41,7 @@
       <div class="banner-body">
         <div class="banner-copy">
           <h2 class="banner-title pad-b gutter-2">I'm a proactive worm catcher: not your typical early bird</h2>
-          <a class="btn-ghost">Learn more about me</a>
+          <a class="btn-ghost" href="#about">Learn more about me</a>
         </div>
       </div>
     </article>
@@ -50,7 +50,7 @@
   <main>
     <h1 class="yotta section-header gutter island-1-2">about me</h1>
     <div class="grid grid-middle island">
-      <div class="island unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <div id="about"  class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <img class="profile-img img-flex" alt="" src="images/profile.jpg">
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island">
@@ -59,16 +59,29 @@
         <p class="bold">hello@teridibbits.com</p>
       </div>
     </div>
-    <h1 class="yotta section-header gutter island-1-2">my work</h1>
+
+    <h1 id="work" class="yotta section-header gutter island-1-2">my work</h1>
     <div class="island grid grid-middle">
-      <a class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island"><img class="work-img" src="images/placeholder.jpg" alt=""></a>
-      <a class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island"><img class="work-img" src="images/placeholder.jpg" alt=""></a>
-      <a class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island"><img class="work-img" src="images/placeholder.jpg" alt=""></a>
-      <a class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island"><img class="work-img" src="images/placeholder.jpg" alt=""></a>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 container">
+        <a href="campaign.html"><img class="work-img" src="images/placeholder.jpg" alt="Ad Campaign"></a>
+        <div class="overlay">
+          <p class="work-text">Ad campaign</p>
+        </div>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 container">
+        <a href="campaign.html"><img class="work-img" src="images/placeholder.jpg" alt="Ad Campaign"></a>
+        <div class="overlay">
+          <p class="work-text">Ad campaign</p>
+        </div>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 container">
+          <a href="campaign.html"><img class="work-img" src="images/placeholder.jpg" alt="Ad Campaign"></a>
+          <div class="overlay">
+            <p class="work-text">Ad campaign</p>
+          </div>
+      </div>
     </div>
-    <div class="btn-work gutter-2">
-      <a class="btn-ghost island">check out my work!</a>
-    </div>
+
   </main>
 
   <footer>
