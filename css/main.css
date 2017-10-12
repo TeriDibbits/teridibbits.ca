@@ -11,6 +11,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 .masthead {
@@ -64,6 +65,8 @@ a {
 .btn-ghost {
   border: solid 3px black;
   padding: 1em;
+  transition: background-color .75s ease;
+  background-color: none;
 }
 
 .btn-ghost:hover {
@@ -79,8 +82,9 @@ h1 {
   color: #ffc107;
 }
 
-.img-circle {
+.profile-img {
   border-radius: 50%;
+  max-width: 20em;
 }
 
 footer {
@@ -112,6 +116,10 @@ a
 a:hover
 {
   color: tomato;
+}
+
+.work-img {
+  width: 100%;
 }
 
 #menuToggle
@@ -219,12 +227,35 @@ a:hover
   font-size: 22px;
 }
 
-/*
- * And let's slide it in from the left
- */
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
 
 *, *::before, *::after {
