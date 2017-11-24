@@ -90,12 +90,12 @@ h1 {
 }
 
 footer {
-  background-color: #000;
+  background-color: #ffc107;
   text-align: center;
 }
 
 .footer-text, .copyright {
-  color: #ffc107;
+  color: #000;
 }
 
 .icon-group {
