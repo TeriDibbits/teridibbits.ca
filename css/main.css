@@ -21,6 +21,7 @@ body {
 .section-header {
   background-color: #ffc107;
   color: #000;
+  text-align: center;
 }
 
 a {
@@ -80,13 +81,16 @@ a {
   margin-bottom: 3em;
 }
 
-h1 {
+.profile-img {
+  border-radius: 50%;
+}
+
+.email {
   color: #ffc107;
 }
 
-.profile-img {
-  border-radius: 50%;
-  max-width: 20em;
+.email:hover {
+  color: #000;
 }
 
 footer {
@@ -95,6 +99,10 @@ footer {
 }
 
 .footer-text, .copyright {
+  color: #000;
+}
+
+.footer-icon {
   color: #000;
 }
 
@@ -107,16 +115,14 @@ footer {
   text-align: left;
 }
 
-a
-{
+a {
   text-decoration: none;
   color: #ffc107;
 
   transition: color 0.3s ease;
 }
 
-a:hover
-{
+a:hover {
   color: #fff;
 }
 
@@ -162,7 +168,7 @@ a:hover
   display: block;
   position: relative;
   top: 25px;
-  left: 25px;
+  left: 40px;
 
   z-index: 1;
 
@@ -241,7 +247,8 @@ a:hover
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 1440px;
+  height: 1000px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -253,14 +260,19 @@ a:hover
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
 
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: transform 0.35s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 #menu li
 {
   padding: 10px 0;
-  font-size: 22px;
+  font-size: 40px;
   color: #000;
+  font-weight: bold;
+}
+
+#menu li:hover {
+  color: #fff;
 }
 
 #menuToggle input:checked ~ ul
@@ -273,6 +285,14 @@ a:hover
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  #menuToggle {
+    top: 35px;
+  }
+
+  .profile-img {
+    padding: .25em;
   }
 
 }
@@ -288,12 +308,25 @@ a:hover
     max-width: 60rem;
   }
 
+  #menuToggle
+  {
+    top: 40px;
+  }
+
+  .profile-img {
+    padding: .5em;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  .profile-img {
+    padding: 3em;
   }
 
 }
