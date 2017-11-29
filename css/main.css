@@ -81,6 +81,34 @@ a {
   margin-bottom: 3em;
 }
 
+.scroll-down {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 70%;
+  left: 88%;
+  font-weight: bold;
+  animation: bounce 1s linear infinite;
+}
+
+@keyframes bounce {
+
+  0%, 20%, 50%, 80%, 100%  {
+    transform: translateX(0);
+  }
+
+  40% {
+    transform: translateX(-30px);
+  }
+
+  60% {
+    transform: translateX(-15px);
+  }
+}
+
+p {
+  margin-bottom: 0;
+}
+
 .profile-img {
   border-radius: 50%;
 }
@@ -103,7 +131,7 @@ footer {
 }
 
 .footer-icon {
-  color: #000;
+  fill: #000;
 }
 
 .icon-group {
@@ -128,6 +156,11 @@ a:hover {
 
 .work-img {
   width: 100%;
+}
+
+.sketch-img {
+  width: 100%;
+  border: 1px solid #000;
 }
 
 .container {
@@ -269,6 +302,7 @@ a:hover {
   font-size: 40px;
   color: #000;
   font-weight: bold;
+  margin-left: 3em;
 }
 
 #menu li:hover {
