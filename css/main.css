@@ -90,7 +90,7 @@ a {
   top: 80%;
   left: 89%;
   font-weight: bold;
-  animation: bounce 1s linear infinite;
+  animation: bounce 1.5s linear infinite;
 }
 
 @keyframes bounce {
