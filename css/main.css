@@ -282,12 +282,13 @@ a:hover {
 
 #menu
 {
-  position: absolute;
-  width: 1440px;
-  height: 1000px;
-  margin: -100px 0 0 -50px;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
+  top: 0;
 
   background: #ffc107;
   list-style-type: none;
