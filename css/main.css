@@ -48,6 +48,7 @@ a {
 .banner {
   position: relative;
   overflow: hidden;
+  padding-top: 7%;
 }
 
 .banner-title {
@@ -86,8 +87,8 @@ a {
 
 .scroll-down {
   position: absolute;
-  top: 70%;
-  left: 88%;
+  top: 80%;
+  left: 89%;
   font-weight: bold;
   animation: bounce 1s linear infinite;
 }
@@ -95,15 +96,15 @@ a {
 @keyframes bounce {
 
   0%, 20%, 50%, 80%, 100%  {
-    transform: translateX(0) rotate(90deg);
+    transform: translateY(0) rotate(90deg);
   }
 
   40% {
-    transform: translateX(-30px) rotate(90deg);
+    transform: translateY(-30px) rotate(90deg);
   }
 
   60% {
-    transform: translateX(-15px) rotate(90deg);
+    transform: translateY(-15px) rotate(90deg);
   }
 }
 
