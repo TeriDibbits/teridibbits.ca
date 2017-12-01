@@ -16,6 +16,9 @@ body {
 
 .masthead {
   background-color: #ffc107;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 .section-header {
@@ -59,7 +62,7 @@ a {
   bottom: 0;
   max-width: 40rem;
   left: 50%;
-  top: 50%;
+  top: 55%;
   width: 100%;
   transform: translate(-50%, -50%);
 }
@@ -83,7 +86,6 @@ a {
 
 .scroll-down {
   position: absolute;
-  transform: rotate(90deg);
   top: 70%;
   left: 88%;
   font-weight: bold;
@@ -93,15 +95,15 @@ a {
 @keyframes bounce {
 
   0%, 20%, 50%, 80%, 100%  {
-    transform: translateX(0);
+    transform: translateX(0) rotate(90deg);
   }
 
   40% {
-    transform: translateX(-30px);
+    transform: translateX(-30px) rotate(90deg);
   }
 
   60% {
-    transform: translateX(-15px);
+    transform: translateX(-15px) rotate(90deg);
   }
 }
 
@@ -347,8 +349,9 @@ a:hover {
     top: 40px;
   }
 
-  .profile-img {
-    padding: .5em;
+  .banner-title {
+    font-size: 2.5rem;
+    line-height: 1.25;
   }
 
 }
@@ -357,10 +360,6 @@ a:hover {
 
   html {
     font-size: 130%;
-  }
-
-  .profile-img {
-    padding: 4em;
   }
 
 }
