@@ -18,6 +18,11 @@ p {
   font-size: micro;
 }
 
+h3 {
+  color: #ffc107;
+  font-size: milli;
+}
+
 .masthead {
   background-color: #ffc107;
   position: fixed;
