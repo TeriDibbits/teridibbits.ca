@@ -58,6 +58,7 @@ a {
 
 .banner-title {
   color: #fff;
+  font-size: 1rem;
 }
 
 .banner-body {
@@ -74,6 +75,7 @@ a {
 }
 
 .btn-ghost {
+  display: none;
   border: solid 3px #fff;
   padding: 1em;
   transition: background-color .75s ease;
@@ -351,6 +353,10 @@ h3 {
     display: none;
     }
 
+  .banner-title {
+    font-size: 2rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -362,6 +368,10 @@ h3 {
 
   .banner-body {
     max-width: 60rem;
+  }
+
+  .btn-ghost {
+    display: inline-block;
   }
 
   #menuToggle
@@ -380,7 +390,7 @@ h3 {
   }
 
   .scroll-down {
-    display: block;
+    display: inline-block;
     top: 80%;
     left: 89%;
     }
