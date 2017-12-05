@@ -348,7 +348,7 @@ h3 {
 
   .scroll-down {
     display: none;
-  }
+    }
 
 }
 
@@ -380,6 +380,9 @@ h3 {
 
   .scroll-down {
     display: block;
+    top: 80%;
+    left: 89%;
+    }
   }
 
 }
