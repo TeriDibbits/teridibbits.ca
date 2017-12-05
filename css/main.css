@@ -302,7 +302,7 @@ h3 {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  margin: 0 0 0 -50px;
+  margin: 0 0 0 -40px;
   padding: 50px;
   padding-top: 125px;
   top: 0;
@@ -319,11 +319,11 @@ h3 {
 
 #menu li
 {
-  padding: 10px 0;
+  padding: 0;
   font-size: 40px;
   color: #000;
   font-weight: bold;
-  margin-left: 3em;
+  margin-left: 1em;
 }
 
 #menu li:hover {
@@ -357,6 +357,11 @@ h3 {
   .banner-title {
     font-size: 2rem;
     line-height: 2.5rem;
+  }
+
+  #menu li
+  {
+    margin-left: 3em;
   }
 
 }
