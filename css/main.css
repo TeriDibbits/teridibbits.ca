@@ -14,10 +14,6 @@ body {
   padding: 0;
 }
 
-p {
-  font-size: micro;
-}
-
 h3 {
   color: #ffc107;
   font-size: milli;
@@ -173,6 +169,14 @@ a:hover {
 .sketch-img {
   width: 100%;
   border: 1px solid #000;
+}
+
+.pad-right {
+  padding-right: .75em;
+}
+
+h3 {
+  font-size: 1.15rem;
 }
 
 .container {
