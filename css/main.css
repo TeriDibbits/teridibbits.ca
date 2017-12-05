@@ -59,6 +59,7 @@ a {
 .banner-title {
   color: #fff;
   font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .banner-body {
@@ -355,6 +356,7 @@ h3 {
 
   .banner-title {
     font-size: 2rem;
+    line-height: 2.5rem;
   }
 
 }
