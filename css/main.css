@@ -91,6 +91,7 @@ a {
 }
 
 .scroll-down {
+  display: none;
   position: absolute;
   top: 80%;
   left: 89%;
