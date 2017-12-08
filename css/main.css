@@ -167,6 +167,7 @@ a:hover {
 }
 
 .work-img {
+  display: block;
   width: 100%;
 }
 
