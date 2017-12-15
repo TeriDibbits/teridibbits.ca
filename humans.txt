@@ -1,0 +1,18 @@
+# humanstxt.organize
+
+# TEAM
+
+Designer & Developer: Teri Dibbits <hello@teridibbits.com>
+Site: https://teridibbits.ca
+Github: https://github.com/teridibbits
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Atom
+- Github
+
+---

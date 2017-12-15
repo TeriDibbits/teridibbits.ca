@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <!-- The <loc> tag is the only one that’s required. -->
+    <loc>https://teridibbits.ca</loc>
+    <!-- OPTIONAL: Priority will default to 0.5 but can go up to 1.0. -->
+    <priority>1.0</priority>
+    <!-- OPTIONAL: can be always, hourly, daily, weekly, monthly, yearly, never -->
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- If you want to add another page, add another <url> tag -->
+  <url>
+    <loc>https://teridibbits.ca/campaign/</loc>
+  </url>
+  <url>
+    <loc>https://teridibbits.ca/uidesign/</loc>
+  </url>
+  <url>
+    <loc>https://teridibbits.ca/booklet/</loc>
+  </url>
+
+</urlset>
