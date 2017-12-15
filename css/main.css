@@ -4,8 +4,24 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+@font-face {
+    font-family: 'jurabold';
+    src: url('../fonts/jura-bold-webfont.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'juraregular';
+    src: url('../fonts/jura-regular-webfont.woff') format('woff');
+    font-weight: normal;
+}
+
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.fonts-loaded {
   font-family: "Jura", sans-serif;
 }
 
