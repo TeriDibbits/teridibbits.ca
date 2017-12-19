@@ -68,7 +68,7 @@ a {
 }
 
 .wordmark {
-  width: 10em;
+  width: 6em;
 }
 
 .img-flex {
@@ -126,6 +126,10 @@ a {
   left: 89%;
   font-weight: bold;
   animation: bounce 1.5s linear infinite;
+}
+
+.regular-body {
+  font-weight: normal;
 }
 
 @keyframes bounce {
@@ -377,10 +381,6 @@ h3 {
     line-height: 1.4;
   }
 
-  #menuToggle {
-    top: 35px;
-  }
-
   .profile-img {
     padding: .25em;
   }
@@ -400,7 +400,7 @@ h3 {
   }
 
   .banner {
-    padding-top: 7%;
+    padding-top: 5%;
   }
 
 }
@@ -422,7 +422,7 @@ h3 {
 
   #menuToggle
   {
-    top: 40px;
+    top: 30px;
   }
 
   .banner-title {
