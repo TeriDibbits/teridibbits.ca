@@ -5,9 +5,10 @@
   <title>{{page.title}}</title>
   <meta name="description" content="{{page.description}}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Jura:400,700" rel="stylesheet">
-  <link href="fonts/jura-bold-webfont.woff" rel="preload">
-  <link href="fonts/jura-regular-webfont.woff" rel="preload">
+  <link href="css/sub-set-fonts.css" rel="stylesheet">
+  <link href="fonts/notosans-bold-webfont.woff" rel="preload">
+  <link href="fonts/notosans-italic-webfont.woff" rel="preload">
+  <link href="notosans-regular-webfont.woff" rel="preload">
   <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
 </head>
 <body>
@@ -103,20 +104,25 @@ z(p,function(a){h=a;u()});t(p,L(c,'"'+c.family+'",monospace'))})})};"object"===t
 </script>
 
 <script>
-  var juraregular, jurabold;
+  var notosansregular, notosansjurabold, notosansitalic;
 
   if (!sessionStorage.fontsLoaded) {
-    juraregular = new FontFaceObserver('Jura', {
+    notosansregular = new FontFaceObserver('Noto Sans', {
       weight: 'normal'
     });
 
-    jurabold = new FontFaceObserver('Jura', {
+    notosansbold = new FontFaceObserver('Noto Sans', {
       weight: 'bold'
     });
 
+    notosansitalic = new FontFaceObserver('Noto Sans', {
+      style: 'italic'
+    });
+
     Promise.all([
-      juraregular.load(),
-      jurabold.load()
+      notosansregular.load(),
+      notosansbold.load(),
+      notosansitalic.load()
     ]).then(function () {
       document.documentElement.className += ' fonts-loaded';
       sessionStorage.fontsLoaded = true;
