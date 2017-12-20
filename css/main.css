@@ -68,7 +68,13 @@ a {
 }
 
 .wordmark {
+  padding-top: .75rem;
+  padding-bottom: .25rem;
   width: 6em;
+}
+
+.wordmark-first {
+  width: 10em;
 }
 
 .img-flex {
@@ -83,7 +89,7 @@ a {
 }
 
 .banner-title {
-  color: #fff;
+  color: #000;
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -91,23 +97,22 @@ a {
 .banner-body {
   position: absolute;
   float: none;
-  text-align: center;
+  text-align: left;
   margin: 0;
   bottom: 0;
-  max-width: 40rem;
   left: 50%;
-  top: 55%;
+  top: 60%;
   width: 100%;
   transform: translate(-50%, -50%);
 }
 
 .btn-ghost {
   display: none;
-  border: solid 3px #fff;
+  border: solid 3px #000;
   padding: 1em;
   transition: background-color .75s ease;
   background-color: none;
-  color: #fff;
+  color: #000;
 }
 
 .btn-ghost:hover {
@@ -251,6 +256,7 @@ h3 {
 {
   display: block;
   position: relative;
+  padding-top: .5rem;
   top: 25px;
   left: 40px;
 

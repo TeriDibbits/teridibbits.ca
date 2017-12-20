@@ -2,7 +2,7 @@
 
 #### [ teridibbits.ca](https://teridibbits.ca)
 
-In high school it quickly became clear to me that I have a passion and love for design. There is an excitement that stirs within me whenever I am presented with a creative opportunity. I am student designer and proactive worm catcher. Not your typical early bird; I have surpassing organization skills paired with an original creative flare for concept driven design. A smiley solution to your problem.
+I am a student designer and proactive worm catcher. Not your typical early bird; I have surpassing organization skills paired with an original creative flare for concept driven design. In high school, I started to add design to every project assigned; even if the project requirements didn’t include any design aspect. I get tickled with excitement when I am presented with a creative opportunity.
 
 - **[hello@teridibbits.ca](milto:hello@teridibbits.ca)**
 - [GitHub](https://github.com/teridibbits)
