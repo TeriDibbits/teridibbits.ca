@@ -182,11 +182,12 @@ footer {
 }
 
 .footer-icon {
-  fill: #000;
+  color: #000;
+  transition: .5s ease;
 }
 
 .footer-icon:hover {
-  fill: #fff;
+  color: #fff;
 }
 
 .icon-group {
