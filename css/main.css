@@ -395,7 +395,7 @@ h3 {
 }
 
 .error-title {
-  font-size: .5rem;
+  font-size: .25rem;
   line-height: 1rem;
 }
 
@@ -412,11 +412,6 @@ h3 {
 
   .banner {
     padding-top: 6%;
-  }
-
-  .error-page {
-    padding-left: 0;
-    padding-top: 5rem;
   }
 
 }
@@ -460,12 +455,8 @@ h3 {
   }
 
   .error-title {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .sorry-error-text {
-    font-size: 130%;
+    font-size: .25rem;
+    line-height: .25rem;
   }
 }
 
@@ -507,13 +498,13 @@ h3 {
   }
 
   .error-page {
-    padding-left: 3rem;
+    padding-left: 1rem;
     padding-top: 8rem;
   }
 
   .error-title {
-    font-size: 4rem;
-    line-height: 3.5rem;
+    font-size: 3rem;
+    line-height: 3rem;
   }
 
 }
