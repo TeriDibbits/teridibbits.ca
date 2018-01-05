@@ -394,11 +394,6 @@ h3 {
   width: 90%;
 }
 
-.error-title {
-  font-size: .25rem;
-  line-height: 1rem;
-}
-
 .error-btn:hover {
   background-color: #000;
   color: #ffc107;
@@ -408,11 +403,21 @@ h3 {
   display: inline-block;
 }
 
+.error-title {
+  font-size: 10px;
+}
+
 @media only screen and (min-width: 25em) {
 
   .banner {
     padding-top: 6%;
   }
+
+  .error-title {
+      font-size: 1rem;
+      line-height: 1rem;
+  }
+
 
 }
 
@@ -455,8 +460,8 @@ h3 {
   }
 
   .error-title {
-    font-size: .25rem;
-    line-height: .25rem;
+    font-size: 1rem;
+    line-height: 1rem;
   }
 }
 
@@ -498,13 +503,13 @@ h3 {
   }
 
   .error-page {
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-top: 8rem;
   }
 
   .error-title {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 5rem;
+    line-height: 4.5rem;
   }
 
 }
