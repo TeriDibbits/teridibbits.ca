@@ -388,8 +388,6 @@ h3 {
 .error-page {
   min-height: 100vh;
   background-color: #ffc107;
-  padding-left: 3rem;
-  padding-top: 7.5rem;
 }
 
 .worm-img {
@@ -397,8 +395,8 @@ h3 {
 }
 
 .error-title {
-  font-size: 5rem;
-  line-height: 4.5rem;
+  font-size: .5rem;
+  line-height: 1rem;
 }
 
 .error-btn:hover {
@@ -406,10 +404,19 @@ h3 {
   color: #ffc107;
 }
 
+.error-btn {
+  display: inline-block;
+}
+
 @media only screen and (min-width: 25em) {
 
   .banner {
     padding-top: 6%;
+  }
+
+  .error-page {
+    padding-left: 0;
+    padding-top: 5rem;
   }
 
 }
@@ -443,6 +450,23 @@ h3 {
     padding-top: 5%;
   }
 
+  .error-btn {
+    display: inline-block;
+  }
+
+  .error-page {
+    padding-left: 0;
+    padding-top: 5rem;
+  }
+
+  .error-title {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sorry-error-text {
+    font-size: 130%;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -482,9 +506,14 @@ h3 {
     }
   }
 
+  .error-page {
+    padding-left: 3rem;
+    padding-top: 8rem;
+  }
+
   .error-title {
-    font-size: 5rem;
-    line-height: 4.5rem;
+    font-size: 4rem;
+    line-height: 3.5rem;
   }
 
 }
@@ -493,6 +522,11 @@ h3 {
 
   html {
     font-size: 130%;
+  }
+
+  .error-page {
+    padding-left: 3rem;
+    padding-top: 8rem;
   }
 
   .error-title {
