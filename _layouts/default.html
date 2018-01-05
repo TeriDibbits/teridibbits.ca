@@ -47,18 +47,21 @@
   </article>
 
   {% else %}
+  {% unless page.hidebanner %}
   <article class="banner">
     <div>
       <p class="scroll-down regular-body">Scroll Down ><p>
       <img itemprop="image" class="img-flex padding-none" src="{{site.baseurl}}/images/{{page.banner_img}}" alt="Banner image on work pages">
     </div>
   </article>
+  {% endunless %}
   {% endif %}
 
   <main itemref="data-author" itemscope itemtype="https://schema.org/Website">
     {{content}}
   </main>
 
+  {% unless page.hidefooter %}
   <footer id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person" class="pad-t gutter">
     <p itemprop="description" class="footer-text regular-body"> Like what you see? Let's talk, I would love to hear from you!</p>
     <ul class="icon-group grid grid-middle list-group">
@@ -86,6 +89,7 @@
     </ul>
     <p class="island-1-2 micro copyright push-0">© <span itemprop="name">Teri Dibbits</span></p>
   </footer>
+  {% endunless %}
 
 <script>
 /* Font Face Observer v2.0.13 - © Bram Stein. License: BSD-3-Clause */(function(){'use strict';var f,g=[];function l(a){g.push(a);1==g.length&&f()}function m(){for(;g.length;)g[0](),g.shift()}f=function(){setTimeout(m)};function n(a){this.a=p;this.b=void 0;this.f=[];var b=this;try{a(function(a){q(b,a)},function(a){r(b,a)})}catch(c){r(b,c)}}var p=2;function t(a){return new n(function(b,c){c(a)})}function u(a){return new n(function(b){b(a)})}function q(a,b){if(a.a==p){if(b==a)throw new TypeError;var c=!1;try{var d=b&&b.then;if(null!=b&&"object"==typeof b&&"function"==typeof d){d.call(b,function(b){c||q(a,b);c=!0},function(b){c||r(a,b);c=!0});return}}catch(e){c||r(a,e);return}a.a=0;a.b=b;v(a)}}

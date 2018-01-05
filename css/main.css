@@ -385,6 +385,27 @@ h3 {
   width: 70%;
 }
 
+.error-page {
+  min-height: 100vh;
+  background-color: #ffc107;
+  padding-left: 3rem;
+  padding-top: 7.5rem;
+}
+
+.worm-img {
+  width: 90%;
+}
+
+.error-title {
+  font-size: 5rem;
+  line-height: 4.5rem;
+}
+
+.error-btn:hover {
+  background-color: #000;
+  color: #ffc107;
+}
+
 @media only screen and (min-width: 25em) {
 
   .banner {
