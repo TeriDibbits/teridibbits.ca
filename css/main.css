@@ -437,6 +437,11 @@ h3 {
   line-height: 2rem;
 }
 
+.brochure-cover {
+  width: 90%;
+  padding-left: 8em;
+}
+
 @media only screen and (min-width: 25em) {
 
   .banner {
