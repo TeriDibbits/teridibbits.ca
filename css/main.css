@@ -438,13 +438,8 @@ h3 {
     line-height: 2.5rem;
   }
 
-  #menu li
-  {
-    margin-left: 3em;
-  }
-
   .banner {
-    padding-top: 0;
+    padding-top: 3%;
   }
 
   .error-title {
@@ -454,6 +449,11 @@ h3 {
 
   .error-page {
     padding-top: 5em;
+  }
+
+  #menu li
+  {
+    font-size: 50px;
   }
 }
 
@@ -474,7 +474,7 @@ h3 {
 
   #menuToggle
   {
-    top: 15px;
+    top: 13px;
   }
 
   .banner-title {
@@ -492,6 +492,11 @@ h3 {
     bottom: 35%;
     left: 89%;
     }
+  }
+
+  #menu li
+  {
+    font-size: 60px;
   }
 
 }
