@@ -74,7 +74,7 @@ a {
 .wordmark {
   padding-top: .75rem;
   padding-bottom: .25rem;
-  width: 6em;
+  width: 5em;
 }
 
 .wordmark-first {
@@ -89,7 +89,7 @@ a {
 .banner {
   position: relative;
   overflow: hidden;
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 .banner-title {
@@ -266,7 +266,7 @@ h3 {
   display: block;
   position: relative;
   padding-top: .5rem;
-  top: 25px;
+  top: 10px;
   left: 40px;
 
   z-index: 1;
@@ -444,7 +444,7 @@ h3 {
   }
 
   .banner {
-    padding-top: 5%;
+    padding-top: 0;
   }
 
   .error-title {
@@ -474,7 +474,7 @@ h3 {
 
   #menuToggle
   {
-    top: 30px;
+    top: 15px;
   }
 
   .banner-title {
