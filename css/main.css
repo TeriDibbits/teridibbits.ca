@@ -454,6 +454,10 @@ h3 {
   .banner {
     padding-top: 6%;
   }
+
+  .error-body {
+    width: 85%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -486,7 +490,12 @@ h3 {
   }
 
   .error-page {
-    padding-top: 5em;
+    padding-top: 3em;
+  }
+
+  .error-title {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -530,12 +539,32 @@ h3 {
     font-size: 60px;
   }
 
+  .error-page {
+    padding-left: 2rem;
+    padding-top: 4rem;
+  }
+
+  .error-title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  .error-page {
+    padding-left: 3rem;
+    padding-top: 7rem;
+  }
+
+  .error-title {
+    font-size: 4rem;
+    line-height: 4rem;
   }
 
 }
