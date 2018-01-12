@@ -392,7 +392,7 @@ h3 {
 #menu li
 {
   padding: 0;
-  font-size: 40px;
+  font-size: 20px;
   color: #000;
   font-weight: bold;
   margin-left: 1em;
@@ -481,11 +481,6 @@ h3 {
   .error-page {
     padding-top: 5em;
   }
-
-  #menu li
-  {
-    font-size: 50px;
-  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -527,7 +522,7 @@ h3 {
 
   #menu li
   {
-    font-size: 60px;
+    font-size: 40px;
   }
 
 }
