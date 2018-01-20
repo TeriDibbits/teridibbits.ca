@@ -62,6 +62,12 @@ h3 {
   text-align: center;
 }
 
+.banner-background {
+  background-color: #ffc107;
+  width: 1474px;
+  height: 829px;
+}
+
 a {
   text-decoration: none;
   color: #ffc107;
