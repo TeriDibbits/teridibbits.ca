@@ -40,13 +40,14 @@
 
   {% if page.url == "/" %}
   <article class="banner">
-      <div class="banner-background">
+      <div>
+        <img itemprop="image" class="img-flex static banner-img" src="{{site.baseurl}}/images/banner.jpg" alt="banner-tree">
       </div>
       <div class="banner-body island">
         <h2 itemprop="description" class="banner-title">I'm a proactive worm catcher; <br>not your typical early bird</h2>
         <a itemprop="url" class="btn-ghost" href="#about">Learn more about me</a>
       </div>
-      <p class="scroll-down scroll-down-home regular-body {{page.scrollarrowcolor}}">Scroll Down ><p>
+      <p class="scroll-down regular-body {{page.scrollarrowcolor}}">Scroll Down ><p>
   </article>
 
   {% else %}
