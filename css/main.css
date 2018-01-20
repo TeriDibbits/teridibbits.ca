@@ -107,11 +107,11 @@ a {
 .banner-body {
   position: absolute;
   float: none;
-  text-align: left;
+  text-align: center;
   margin: 0;
   bottom: 0;
   left: 50%;
-  top: 60%;
+  top: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
 }
@@ -127,8 +127,8 @@ a {
 }
 
 .btn-ghost:hover {
-  background-color: #ffc107;
-  color: #000
+  background-color: #000;
+  color: #ffc107;
 }
 
 .arrowwhite {
@@ -233,6 +233,7 @@ footer {
 
 .copyright {
   text-align: left;
+  font-weight: normal;
 }
 
 a {
