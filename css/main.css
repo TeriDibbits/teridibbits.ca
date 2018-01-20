@@ -64,8 +64,8 @@ h3 {
 
 .banner-background {
   background-color: #ffc107;
-  width: 1474px;
-  height: 829px;
+  width: 100vw;
+  height: 25em;
 }
 
 a {
@@ -117,7 +117,7 @@ a {
 }
 
 .btn-ghost {
-  display: none;
+  display: inline-block;
   border: solid 3px #000;
   padding: 1em;
   transition: background-color .75s ease;
@@ -135,7 +135,7 @@ a {
   width: 50%;
   left: 50%;
   transform: translate(50%, -50%);
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 .arrowwhite {
@@ -479,6 +479,15 @@ h3 {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .banner-background {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .banner-design {
+    margin-top: 7em;
   }
 
   .profile-img {
