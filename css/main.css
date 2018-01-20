@@ -65,7 +65,7 @@ h3 {
 .banner-background {
   background-color: #ffc107;
   width: 100vw;
-  height: 25em;
+  height: 15em;
 }
 
 a {
@@ -111,7 +111,7 @@ a {
   margin: 0;
   bottom: 0;
   left: 50%;
-  top: 50%;
+  top: 55%;
   width: 100%;
   transform: translate(-50%, -50%);
 }
@@ -132,6 +132,7 @@ a {
 }
 
 .banner-design {
+  display: none;
   width: 50%;
   left: 50%;
   transform: translate(50%, -50%);
@@ -487,7 +488,12 @@ h3 {
   }
 
   .banner-design {
+    display: block;
     margin-top: 7em;
+  }
+
+  .banner-body {
+    top: 50%;
   }
 
   .profile-img {
@@ -499,6 +505,7 @@ h3 {
     }
 
   .banner-title {
+    padding-bottom: 1rem;
     font-size: 2rem;
     line-height: 2.5rem;
   }
